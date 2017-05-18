@@ -81,11 +81,11 @@ local function getattributes(field, ...)
 end
 
 M.attributes = function(path, field)
-	return getattributes(field, path, node_fs.statSync, node_fs)
+	return getattributes(field, node_fs.statSync, node_fs, path)
 end
 
 M.symlinkattributes = function(path, field)
-	return getattributes(field, path, node_fs.lstatSync, node_fs)
+	return getattributes(field, node_fs.lstatSync, node_fs, path)
 end
 
 M.chdir = function(path)
