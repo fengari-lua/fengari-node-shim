@@ -1,4 +1,4 @@
--- Emulation of https://luarocks.org/modules/hoelzro/lua-term
+-- Emulation of https://github.com/hoelzro/lua-term
 
 local js = require "js"
 local node_process = js.global.process
