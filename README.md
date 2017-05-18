@@ -8,4 +8,4 @@ It's intended to be used from [Fengari](http://fengari.io/) to run existing lua 
 
  - `lfs` ([LuaFileSystem](https://keplerproject.github.io/luafilesystem))
  - `system` ([luasystem](https://github.com/o-lim/luasystem))
- - `term` ([lua-term](https://github.com/hoelzro/lua-term))
+ - `term.core` (C part of [lua-term](https://github.com/hoelzro/lua-term))

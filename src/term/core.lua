@@ -1,4 +1,4 @@
--- Emulation of https://github.com/hoelzro/lua-term
+-- Emulation of https://github.com/hoelzro/lua-term core module
 
 local js = require "js"
 local node_process = js.global.process
